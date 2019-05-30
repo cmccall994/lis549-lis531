@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Christy M" />
+    <meta
+      name="description"
+      content="about page for IMSLP inspired cataloging and web development project"
+    />
+    <meta
+      name="keywords"
+      content="cataloging, web development, sheet music, public domain, IMSLP"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>About Music Sample Catalog</title>
+    <!-- <h1>Public Domain Sheet Music Sample Catalog</h1>
+                <p>inspired by IMSLP.org, created by Christy M</p> -->
+  </head>
+
+  <body>
+    <header>
+      <!-- navigation bar with dropdown menu and search bar -->
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="../Home/hindex.html"
+          >Public Domain Sheet Music Sample Catalog</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item active">
+                        <a class="nav-link" href="#"
+                          >Home <span class="sr-only">(current)</span></a
+                        >
+                      </li> -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="../Browse by/bindex.html"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Browse By
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Title</a>
+                <a class="dropdown-item" href="#">Composer</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../About/aindex.html">About</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">About This Project</h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Goal</h2>
+            <p>
+              The goal of this project is to take a sample of records from the
+              website www.imslp.org and create a functional and well cataloged
+              website. The intent is to create a website that attempts to take
+              IMSLP's mission and make it more accessible to general users. The
+              intent is to create a website that is more easily browsed and
+              searched. It is also important that the records be cataloged
+              consistently and clearly.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h2>Process</h2>
+            <p>
+              The first step was to pick a sample set of records to use. This
+              was accomplished by finding ten well known composers and randomly
+              selecting to scores for each composer. The next step was to pick
+              which elements were essential to the clear and accessible
+              cataloging of the scores. These components are listed and
+              explained in the core components section. Then, each score was
+              cataloging using the core components. An emphasis was placed on
+              including linked data in the records as often as possible. An
+              authority record was also created for each composer. The website
+              for this catalog was then constructed, with a focus on usability
+              and accessibility.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h2>Essential Core Components</h2>
+            <p>
+              The core elements of which users most commonly think are title,
+              composer, date, and instrumentation. It is important to include
+              not only the title assigned by the composer, but other titles that
+              have been associated with the work. This was done as often as
+              possible. Another core element is movement titles, which have been
+              included. Publisher, type of work, style of work, time period,
+              language, and related works were also considered core components.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h2>Findings</h2>
+            <p>
+              Catalogs are tricky to construct. This sheds some light as to why
+              IMSLP, a fully volunteer operation, has some aspects that are
+              difficult to navigate as a user.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h2>What's Next?</h2>
+            <p>paragraph</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
