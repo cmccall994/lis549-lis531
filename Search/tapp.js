@@ -12,18 +12,31 @@ function renderMovies(movie_list) {
 
 function renderMovie(movie) {
   var tr = document.createElement("tr");
-  tr.appendChild(renderMovieProp(movie.title, true));
+  tr.appendChild(renderMovieProp(movie.title, true, movie.link));
+  // tr.appendChild(renderMovieProp(movie.title, true));
   tr.appendChild(renderMovieProp(movie.composer));
   tr.appendChild(renderMovieProp(movie.date));
   return tr;
 }
 
-function renderMovieProp(content, nonNumeric) {
+function renderMovieProp(content, nonNumeric, link) {
+  // tr.appendChild(renderMovieProp(score.title, true, score.link));
   var td = document.createElement("td");
-  td.textContent = content;
-  if ((nonNumeric = true)) {
-    td.classList.add("non-numeric");
+  // td.textContent = content;
+  // if ((nonNumeric = true)) {
+  //   td.classList.add("non-numeric");
+  // }
+  if (link) {
+    var a = document.createElement("a");
+
+    a.href = link;
+
+    a.textContent = content;
+    td.appendChild(a);
+  } else {
+    td.textContent = content;
   }
+
   return td;
 }
 

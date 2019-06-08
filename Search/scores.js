@@ -13,7 +13,8 @@ const SCORES = [
     language: "English",
     area: "United States",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/beach1.html"
   },
 
   {
@@ -29,8 +30,11 @@ const SCORES = [
     language: null,
     area: "United States",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/beach2.html"
   },
+
+  //Brahms
 
   {
     title: "28 Deutsche Volkslieder, WoO 32",
@@ -45,25 +49,8 @@ const SCORES = [
     language: "German",
     area: "Germany",
     related: null,
-    dedication: null
-  },
-
-  //Brahms
-
-  {
-    title: "Clarinet Sonata No.1, Op.120 No.1",
-    composer: "Brahms, Johannes",
-    librettist: null,
-    date: "1895",
-    publisher: "N. Simrock (Berlin)",
-    instrumentation: "Piano, Clarinet",
-    type: "Duet, Accompanied Solo",
-    style: "Romantic, Sonata",
-    period: "Romantic",
-    language: null,
-    area: "Germany",
-    related: null,
-    dedication: "Richard Mühlfeld"
+    dedication: null,
+    link: "/Score-Records/brahms1.html"
   },
 
   {
@@ -79,7 +66,8 @@ const SCORES = [
     language: null,
     area: "Germany",
     related: null,
-    dedication: "Richard Mühlfeld"
+    dedication: "Richard Mühlfeld",
+    link: "/Score-Records/brahms2.html"
   },
 
   //Copland
@@ -97,7 +85,8 @@ const SCORES = [
     language: null,
     area: "United States",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/copland1.html"
   },
 
   {
@@ -113,7 +102,8 @@ const SCORES = [
     language: null,
     area: "United States",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/copland2.html"
   },
 
   //Czerny
@@ -131,7 +121,8 @@ const SCORES = [
     language: null,
     area: "Germany",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/czerny1.html"
   },
 
   {
@@ -147,7 +138,8 @@ const SCORES = [
     language: null,
     area: "Germany",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/czerny2.html"
   },
 
   //Debussy
@@ -165,7 +157,8 @@ const SCORES = [
     language: "French",
     area: "France",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/debussy1.html"
   },
 
   {
@@ -181,7 +174,8 @@ const SCORES = [
     language: null,
     area: "France",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/debussy2.html"
   },
 
   //Dvorak
@@ -199,7 +193,8 @@ const SCORES = [
     language: null,
     area: "Germany",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/dvorak1.html"
   },
 
   {
@@ -215,7 +210,8 @@ const SCORES = [
     language: null,
     area: "Germany",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/dvorak2.html"
   },
 
   //Foster
@@ -233,7 +229,8 @@ const SCORES = [
     language: "English",
     area: "United States",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/foster1.html"
   },
 
   {
@@ -249,7 +246,8 @@ const SCORES = [
     language: "English",
     area: "United States",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/foster2.html"
   },
 
   //Gounod
@@ -267,7 +265,8 @@ const SCORES = [
     language: "French",
     area: "France",
     related: null,
-    dedication: "Mme. Fanny Bouchet"
+    dedication: "Mme. Fanny Bouchet",
+    link: "/Score-Records/gounod1.html"
   },
 
   {
@@ -283,7 +282,8 @@ const SCORES = [
     language: "French",
     area: "France",
     related: null,
-    dedication: "Mrs. Weldon and Mr. Jules Diaz de Soria"
+    dedication: "Mrs. Weldon and Mr. Jules Diaz de Soria",
+    link: "/Score-Records/gounod2.html"
   },
 
   //Schumann
@@ -301,7 +301,8 @@ const SCORES = [
     language: "German",
     area: "Germany",
     related: null,
-    dedication: "Livia Frege, née Gerhardt"
+    dedication: "Livia Frege, née Gerhardt",
+    link: "/Score-Records/schumann1.html"
   },
 
   {
@@ -317,7 +318,8 @@ const SCORES = [
     language: null,
     area: "Germany",
     related: null,
-    dedication: "Joseph Joachim"
+    dedication: "Joseph Joachim",
+    link: "/Score-Records/schumann2.html"
   },
 
   //Strauss
@@ -335,7 +337,8 @@ const SCORES = [
     language: null,
     area: "Austria",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/strauss1.html"
   },
 
   {
@@ -351,6 +354,7 @@ const SCORES = [
     language: null,
     area: "Austria",
     related: null,
-    dedication: null
+    dedication: null,
+    link: "/Score-Records/strauss2.html"
   }
 ];

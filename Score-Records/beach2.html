@@ -24,75 +24,51 @@
                 <p>inspired by IMSLP.org, created by Christy M</p> -->
   </head>
   <body>
-    <header>
-      <!-- navigation bar with dropdown menu and search bar -->
-      <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="/Home/home.html"
-          >Public Domain Sheet Music Sample Catalog</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <!-- <li class="nav-item active">
-                        <a class="nav-link" href="#"
-                          >Home <span class="sr-only">(current)</span></a
-                        >
-                      </li> -->
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="../Browse by/browse.html"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Browse By
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="../Browse by/Title/title.html"
-                  >Title</a
-                >
-                <a class="dropdown-item" href="../Browse by/Composer/comp.html"
-                  >Composer</a
-                >
-                <!-- <div class="dropdown-divider"></div> -->
-                <a class="dropdown-item" href="../Browse by/Date/date.html"
-                  >Date</a
-                >
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/About/about.html">About</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
+      <header>
+          <!-- navigation bar with dropdown menu and search bar -->
+          <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="../Home/home.html"
+              >Public Domain Sheet Music Sample Catalog</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
             </button>
-          </form>
-        </div>
-      </nav>
-    </header>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/Browse by/browse.html">Browse</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Search/search.html">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../About/about.html">About</a>
+                  </li>
+              </ul>
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                  Search
+                </button>
+              </form> -->
+            </div>
+          </nav>
+        </header>
 
     <main>
       <span class="border border-primary">
@@ -120,7 +96,7 @@
             <div class="card">
                     <div class="shadow p-0 mb-0 bg-white rounded">
                 <div class="card-body">
-            <h3>Date</h3>
+            <h3>Date of Publication</h3>
             <p href="#">1909</p>
         </div>
         </div>
@@ -132,11 +108,23 @@
                     <div class="shadow p-0 mb-0 bg-white rounded">
                   <div class="card-body">
             <h3>Publisher</h3>
-            <p href="#">Arthur P. Schmidt (Boston)</p>
+            <p href="#">Arthur P. Schmidt</p>
         </div>
         </div>
           </div>
         </div>
+
+        <div class="col-md-4 p-sm-1 m-sm-4">
+            <div class="card">
+                  <div class="shadow p-0 mb-0 bg-white rounded">
+                <div class="card-body">
+          <h3>Place of Publication</h3>
+          <p href="#">Boston</p>
+      </div>
+      </div>
+        </div>
+      </div>
+        
         
           <div class="col-md-4 p-sm-1 m-sm-4">
               <div class="card">
